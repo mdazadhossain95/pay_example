@@ -99,8 +99,8 @@ const String defaultGooglePay = '''{
       }
     ],
     "merchantInfo": {
-      "merchantId": "01234567890123456789",
-      "merchantName": "Example Merchant"
+      "merchantId": "BCR2DN4TWK7J5VLM",
+      "merchantName": "Nexovia solutions"
     },
     "transactionInfo": {
       "countryCode": "US",
@@ -131,8 +131,9 @@ const String basicGooglePayLoadPaymentData = '''{
   "data": {
     "apiVersion": 2,
     "apiVersionMinor": 0,
-    "merchantInfo": {
-      "merchantName": "Example Merchant"
+     "merchantInfo": {
+      "merchantId": "BCR2DN4TWK7J5VLM",
+      "merchantName": "Nexovia solutions"
     },
     "allowedPaymentMethods": [
       {
@@ -178,7 +179,8 @@ const String invalidGooglePayLoadPaymentData = '''{
     "apiVersion": 2,
     "apiVersionMinor": 0,
     "merchantInfo": {
-      "merchantName": "Example Merchant"
+      "merchantId": "BCR2DN4TWK7J5VLM",
+      "merchantName": "Nexovia solutions"
     },
     "allowedPaymentMethods": [
       {

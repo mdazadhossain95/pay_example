@@ -26,7 +26,8 @@
       }
     ],
     "merchantInfo": {
-      "merchantName": "Example Merchant Name"
+      "merchantName": "Nexovia solutions",
+      "merchantId": "BCR2DN4TWK7J5VLM"
     },
     "transactionInfo": {
       "countryCode": "US",
